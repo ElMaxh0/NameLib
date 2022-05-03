@@ -1,0 +1,57 @@
+body{
+    background-color: rgba(30, 25, 45);
+    color: rgba(235,235,235);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.logo >h1{
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#nomeabencoado{
+    font-size: 4rem;
+    color: rgb(44, 10, 238);
+}
+#namebox{
+    padding: 1%;
+    border-radius: 25px;
+    background-color: rgba(255,255,255);
+    display: flex;
+    justify-content: center;
+    color: rgba(30, 25, 45);
+}
+.topic_container{         
+    display: grid;     
+    grid-template-columns: repeat(2, 1fr);
+}
+.topic_container >div {
+    display: flex;
+    align-items: center;
+    padding: 5%;
+}
+.topic_container>div>div{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+}
+.topic_container>div>div>p{
+    margin: auto,auto,auto,auto;
+    font-size: 1.5rem;
+}
+@media only screen and (hover: none) and (pointer: coarse){
+    .topic_container{                
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media screen and (max-width: 802px) {
+    .topic_container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

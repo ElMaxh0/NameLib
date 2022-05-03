@@ -1,0 +1,15 @@
+* text=auto
+*.css linguist-vendored
+*.scss linguist-vendored
+*.js linguist-vendored
+CHANGELOG.md export-ignore
+.editorconfig
+.env.example
+.env
+.gitattributes
+.gitignore
+.styleci.yml
+package.json
+phpunit.xml
+composer.json
+composer.lock
