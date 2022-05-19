@@ -10,7 +10,7 @@ class NameLoad extends Controller
     {
         
         header("Access-Control-Allow-Origin:*");
-        header("Origin:http://api.clonacartao.cc");
+        header("Origin:http://api.namelib.123alehot.net.br");
         header ("Access-Control-Expose-Headers: Content-Length, X-JSON");
         header ("Access-Control-Allow-Methods: GET, POST, PATCH, PUT, DELETE, OPTIONS");
         header ("Access-Control-Allow-Headers: Content-Type, Authorization, Accept, Accept-Language, X-Authorization");
